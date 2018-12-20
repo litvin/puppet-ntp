@@ -2,7 +2,7 @@
   "name": "litvin-ntp",
   "version": "0.1.0",
   "author": "litvin",
-  "summary": null,
+  "summary": "This module will manage ntp service.",
   "license": "Apache-2.0",
   "source": "https://github.com/litvin/puppet-ntp.git",
   "project_page": "https://github.com/litvin/puppet-ntp",
