@@ -10,4 +10,7 @@ class ntp(
   Boolean $service_hasrestart = $ntp::params::service_hasrestart,
   Boolean $service_hasstatus  = $ntp::params::service_hasstatus,
 ) inherits ::ntp::params {
+  class { '::ntp::install': }
+  -> class { '::ntp::config': }
+  ~> class { '::ntp::service': }
 }
